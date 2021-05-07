@@ -11,7 +11,7 @@ print("""
 [3] Quit
 """)
 
-pc_option = random.randint(0, 3)
+pc_option = random.randint(0, 2)
 player_option = int(input("Choose your option: "))
 
 if pc_option == player_option:
@@ -37,3 +37,6 @@ elif pc_option == 2 and player_option == 1:
 
 elif player_option == 3:
     exit
+
+else:
+    print("Not a valid option.")
